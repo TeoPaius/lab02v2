@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>repository</OriginalElement>
+  <nodes>
+    <node x="356.0" y="861.0">console.UI</node>
+    <node x="692.25" y="210.0">domain.Student</node>
+    <node x="1066.0" y="721.0">repository.TemaFileRepository</node>
+    <node x="998.25" y="44.0">domain.HasID</node>
+    <node x="1450.0" y="861.0">validation.ValidationException</node>
+    <node x="702.0" y="732.0">repository.StudentXMLRepository</node>
+    <node x="1728.5219298245615" y="542.5">repository.TemaRepository</node>
+    <node x="904.25" y="221.0">domain.Nota</node>
+    <node x="1213.0" y="861.0">domain.Pair</node>
+    <node x="1882.5219298245615" y="542.5">repository.StudentRepository</node>
+    <node x="994.0" y="962.0">validation.TemaValidator</node>
+    <node x="351.5" y="443.0">repository.AbstractXMLRepository</node>
+    <node x="1578.5219298245615" y="542.5">repository.NotaRepository</node>
+    <node x="804.0" y="962.0">validation.NotaValidator</node>
+    <node x="0.0" y="721.0">repository.NotaXMLRepository</node>
+    <node x="1294.0798245614037" y="454.0">repository.AbstractFileRepository</node>
+    <node x="349.0" y="732.0">repository.TemaXMLRepository</node>
+    <node x="0.0" y="861.0">service.Service</node>
+    <node x="599.0" y="962.0">validation.StudentValidator</node>
+    <node x="1277.0" y="721.0">repository.StudentFileRepository</node>
+    <node x="1591.3991228070176" y="199.0">repository.AbstractCRUDRepository</node>
+    <node x="1499.0" y="721.0">repository.NotaFileRepository</node>
+    <node x="814.0" y="861.0">validation.Validator</node>
+    <node x="1379.3991228070176" y="199.0">domain.Tema</node>
+    <node x="1643.6491228070176" y="0.0">repository.CRUDRepository</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="domain.Student" target="domain.HasID">
+      <point x="0.0" y="-81.0" />
+      <point x="788.25" y="169.0" />
+      <point x="1018.0" y="169.0" />
+      <point x="-19.75" y="25.5" />
+    </edge>
+    <edge source="repository.StudentRepository" target="repository.AbstractCRUDRepository">
+      <point x="0.0" y="-14.5" />
+      <point x="1955.0219298245615" y="413.0" />
+      <point x="1759.6991228070176" y="413.0" />
+      <point x="74.79999999999995" y="92.0" />
+    </edge>
+    <edge source="repository.AbstractCRUDRepository" target="domain.HasID">
+      <point x="-46.75" y="-92.0" />
+      <point x="1638.1491228070176" y="159.0" />
+      <point x="1070.6666666666667" y="159.0" />
+      <point x="32.91666666666674" y="25.5" />
+    </edge>
+    <edge source="repository.AbstractXMLRepository" target="domain.HasID">
+      <point x="-82.0" y="-114.0" />
+      <point x="433.5" y="159.0" />
+      <point x="1004.8333333333334" y="159.0" />
+      <point x="-32.91666666666663" y="25.5" />
+    </edge>
+    <edge source="domain.Nota" target="domain.HasID">
+      <point x="-1.1368683772161603E-13" y="-70.0" />
+      <point x="989.75" y="179.0" />
+      <point x="1031.1666666666667" y="179.0" />
+      <point x="-6.5833333333332575" y="25.5" />
+    </edge>
+    <edge source="validation.NotaValidator" target="validation.Validator">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="repository.TemaRepository" target="repository.AbstractCRUDRepository">
+      <point x="0.0" y="-14.5" />
+      <point x="1795.5219298245615" y="423.0" />
+      <point x="1722.2991228070177" y="423.0" />
+      <point x="37.40000000000009" y="92.0" />
+    </edge>
+    <edge source="repository.AbstractXMLRepository" target="repository.AbstractCRUDRepository">
+      <point x="82.0" y="-114.0" />
+      <point x="597.5" y="403.0" />
+      <point x="1610.0991228070177" y="403.0" />
+      <point x="-74.79999999999995" y="92.0" />
+    </edge>
+    <edge source="repository.NotaXMLRepository" target="repository.AbstractXMLRepository">
+      <point x="0.0" y="-47.5" />
+      <point x="164.5" y="696.0" />
+      <point x="406.16666666666674" y="696.0" />
+      <point x="-109.33333333333331" y="114.0" />
+    </edge>
+    <edge source="repository.TemaXMLRepository" target="repository.AbstractXMLRepository">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="114.0" />
+    </edge>
+    <edge source="validation.StudentValidator" target="validation.Validator">
+      <point x="0.0" y="-25.5" />
+      <point x="691.5" y="937.0" />
+      <point x="839.0" y="937.0" />
+      <point x="-50.0" y="25.5" />
+    </edge>
+    <edge source="repository.NotaFileRepository" target="repository.AbstractFileRepository">
+      <point x="0.0" y="-47.5" />
+      <point x="1592.5" y="696.0" />
+      <point x="1440.7464912280705" y="696.0" />
+      <point x="58.66666666666674" y="103.0" />
+    </edge>
+    <edge source="repository.StudentFileRepository" target="repository.AbstractFileRepository">
+      <point x="0.0" y="-47.5" />
+      <point x="1378.0" y="696.0" />
+      <point x="1382.0798245614037" y="696.0" />
+      <point x="0.0" y="103.0" />
+    </edge>
+    <edge source="repository.AbstractFileRepository" target="repository.AbstractCRUDRepository">
+      <point x="44.0" y="-103.0" />
+      <point x="1426.0798245614037" y="413.0" />
+      <point x="1647.4991228070176" y="413.0" />
+      <point x="-37.40000000000009" y="92.0" />
+    </edge>
+    <edge source="repository.AbstractFileRepository" target="domain.HasID">
+      <point x="-44.0" y="-103.0" />
+      <point x="1338.0798245614037" y="179.0" />
+      <point x="1044.3333333333333" y="179.0" />
+      <point x="6.5833333333332575" y="25.5" />
+    </edge>
+    <edge source="domain.Tema" target="domain.HasID">
+      <point x="0.0" y="-92.0" />
+      <point x="1475.3991228070176" y="169.0" />
+      <point x="1057.5" y="169.0" />
+      <point x="19.75" y="25.5" />
+    </edge>
+    <edge source="validation.TemaValidator" target="validation.Validator">
+      <point x="0.0" y="-25.5" />
+      <point x="1081.0" y="937.0" />
+      <point x="939.0" y="937.0" />
+      <point x="50.0" y="25.5" />
+    </edge>
+    <edge source="repository.AbstractCRUDRepository" target="repository.CRUDRepository">
+      <point x="46.75" y="-92.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="repository.TemaFileRepository" target="repository.AbstractFileRepository">
+      <point x="0.0" y="-47.5" />
+      <point x="1161.5" y="696.0" />
+      <point x="1323.413157894737" y="696.0" />
+      <point x="-58.66666666666674" y="103.0" />
+    </edge>
+    <edge source="repository.StudentXMLRepository" target="repository.AbstractXMLRepository">
+      <point x="-1.1368683772161603E-13" y="-36.5" />
+      <point x="874.0" y="696.0" />
+      <point x="624.8333333333334" y="696.0" />
+      <point x="109.33333333333337" y="114.0" />
+    </edge>
+    <edge source="repository.NotaRepository" target="repository.AbstractCRUDRepository">
+      <point x="0.0" y="-14.5" />
+      <point x="1643.5219298245615" y="423.0" />
+      <point x="1684.8991228070176" y="423.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="1066.75" y="366.25" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
