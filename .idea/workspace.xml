@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b7abfa-93cd-4a35-8d3d-90672c636cf9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/console/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/console/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/HasID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/HasID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Nota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Nota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Tema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Tema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/AbstractCRUDRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/AbstractCRUDRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/AbstractFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/AbstractFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/AbstractXMLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/AbstractXMLRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/CRUDRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/CRUDRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/NotaFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/NotaFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/NotaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/NotaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/NotaXMLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/NotaXMLRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/StudentFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/StudentFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/StudentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/StudentXMLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/StudentXMLRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/TemaFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/TemaFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/TemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/TemaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/TemaXMLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/TemaXMLRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validation/NotaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/NotaValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validation/StudentValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/StudentValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validation/TemaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/TemaValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validation/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/ValidationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/validation/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lab02v2MV/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab02v2MV/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,20 +25,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="330">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/lab02v2MV/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="502">
+              <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,6 +84,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/lab02v2MV/AppTest.java" />
       </list>
     </option>
   </component>
@@ -161,6 +140,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lab02v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabAssiAsseProjectV01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab02v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabAssiAsseProjectV01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab02v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabAssiAsseProjectV01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lab02v2MV" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -177,6 +177,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\faculta an3\testing\LabAssiAsseProjectV01\LabAssiAsseProjectV01\src\main\java" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -189,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in LabAssiAsseProjectV01">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LabAssiAsseProjectV01" />
@@ -197,6 +202,23 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="All in LabAssiAsseProjectV01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabAssiAsseProjectV01" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -212,6 +234,24 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <patterns />
+    </configuration>
+    <configuration name="test in LabAssiAsseProjectV01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabAssiAsseProjectV01" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <dir value="$PROJECT_DIR$/src/test" />
       <patterns />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -236,8 +276,15 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.test in LabAssiAsseProjectV01" />
+      <item itemvalue="JUnit.All in LabAssiAsseProjectV01" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in LabAssiAsseProjectV01" />
+        <item itemvalue="JUnit.test in LabAssiAsseProjectV01" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -252,7 +299,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552919827275</updated>
-      <workItem from="1552919830899" duration="1467000" />
+      <workItem from="1552919830899" duration="2010000" />
     </task>
     <task id="LOCAL-00001" summary="initcomit">
       <created>1552920303472</created>
@@ -261,11 +308,23 @@
       <option name="project" value="LOCAL" />
       <updated>1552920303472</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="itCOMPILES">
+      <created>1552921333590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552921333590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="test_in_LabAssiAsseProjectV01 - 2019.03.18 at 17h 05m 34s.xml">
+      <configuration name="test in LabAssiAsseProjectV01" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1467000" />
+    <option name="totallyTimeSpent" value="2010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -281,11 +340,11 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Maven-2 Build" order="5" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -310,7 +369,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initcomit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initcomit" />
+    <MESSAGE value="itCOMPILES" />
+    <option name="LAST_COMMIT_MESSAGE" value="itCOMPILES" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/repository/TemaFileRepository.java">
@@ -334,17 +394,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/lab02v2MV/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="330">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/lab02v2MV/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="502">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
