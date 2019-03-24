@@ -56,9 +56,9 @@ public class AppTest
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
         Transformer transformer = transformerFactory.newTransformer();
         DOMSource source = new DOMSource(doc);
-        StreamResult result = new StreamResult(new File("D:\\faculta an3\\testing\\LabAssiAsseProjectV01\\LabAssiAsseProjectV01\\studenti_test.xml"));
-        StreamResult result2 = new StreamResult(new File("D:\\faculta an3\\testing\\LabAssiAsseProjectV01\\LabAssiAsseProjectV01\\teme_test.xml"));
-        StreamResult result3 = new StreamResult(new File("D:\\faculta an3\\testing\\LabAssiAsseProjectV01\\LabAssiAsseProjectV01\\note_test.xml"));
+        StreamResult result = new StreamResult(new File("studenti_test.xml"));
+        StreamResult result2 = new StreamResult(new File("teme_test.xml"));
+        StreamResult result3 = new StreamResult(new File("note_test.xml"));
 
         // Output to console for testing
         // StreamResult result = new StreamResult(System.out);
