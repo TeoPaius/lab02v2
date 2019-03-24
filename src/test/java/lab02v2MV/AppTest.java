@@ -123,15 +123,32 @@ public class AppTest
         assertTrue(found);
     }
 
-//    public void addStudentTest_invalidGroup() {
-//        try {
-//            service.saveStudent("1", "test", 0, "bbb", "aaa");
-//        }
-//        catch (ValidationException exception){
-//            assertTrue(true);
-//        }
-//        fail("student added with wrong group");
-//    }
+    @Test
+    public void addStudentTest_invalidGroup() {
+        try {
+            if (service.saveStudent("1", "test", 0, "bbb", "aaa") == 1){
+                throw new ValidationException("Invalid");
+            }
+            fail("student added with wrong group");
+        }
+        catch (ValidationException exception){
+            assertTrue(true);
+        }
+
+
+        try {
+            if (service.saveStudent("1", "test", -1, "bbb", "aaa") == 1){
+                throw new ValidationException("Invalid");
+            }
+            fail("student added with wrong group");
+        }
+        catch (ValidationException exception){
+            assertTrue(true);
+        }
+
+    }
+
+
 
 
 
