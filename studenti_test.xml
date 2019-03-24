@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
     <student ID="1">
-        <Nume>aaa</Nume>
-        <Grupa>936</Grupa>
-        <Email>bb</Email>
-        <Profesor/>
+        <Nume>test</Nume>
+        <Grupa>935</Grupa>
+        <Email>aaa</Email>
+        <Profesor>bbb</Profesor>
     </student>
 </Entitati>

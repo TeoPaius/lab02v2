@@ -17,6 +17,8 @@ public class StudentXMLRepository extends AbstractXMLRepository<String, Student>
 
         element.appendChild(createElement(XMLdocument, "Nume", student.getNume()));
         element.appendChild(createElement(XMLdocument, "Grupa", String.valueOf(student.getGrupa())));
+        element.appendChild(createElement(XMLdocument, "Email", student.getEmail()));
+        element.appendChild(createElement(XMLdocument, "Profesor", student.getProfesor()));
 
         return element;
     }
@@ -24,8 +26,10 @@ public class StudentXMLRepository extends AbstractXMLRepository<String, Student>
     protected Student getEntityFromNode(Element node) {
         String ID = node.getAttributeNode("ID").getValue();
         String nume = node.getElementsByTagName("Nume").item(0).getTextContent();
+        String email = node.getElementsByTagName("Email").item(0).getTextContent();
+        String profesor = node.getElementsByTagName("Profesor").item(0).getTextContent();
         int grupa = Integer.parseInt(node.getElementsByTagName("Grupa").item(0).getTextContent());
 
-        return new Student(ID, nume, grupa);
+        return new Student(ID, nume, grupa, profesor, email);
     }
 }
