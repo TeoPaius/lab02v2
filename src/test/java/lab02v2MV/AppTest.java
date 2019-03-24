@@ -43,6 +43,10 @@ public class AppTest
 
     Service service;
 
+    private String goodEmail = "test@test.com";
+    private String goodProfesor = "Profesor";
+    private int goodGroup = 936;
+
     private void buildEmptyXmls() throws TransformerException, ParserConfigurationException {
         DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
@@ -91,10 +95,9 @@ public class AppTest
         assertTrue( true );
     }
 
-
     @Test
     public void addStudentTest() {
-        service.saveStudent("1","test",935,"bbb","aaa");
+        service.saveStudent("1","test",goodGroup,goodProfesor,goodEmail);
         boolean found = false;
         for (Student s:
              service.findAllStudents()) {
@@ -108,7 +111,7 @@ public class AppTest
 
     @Test
     public void addStudentTest_validGroup() {
-        service.saveStudent("1","test",935,"bbb","aaa");
+        service.saveStudent("1","test",935,goodProfesor,goodEmail);
         boolean found = false;
         for (Student s:
                 service.findAllStudents()) {
@@ -126,21 +129,79 @@ public class AppTest
     @Test
     public void addStudentTest_invalidGroup() {
         try {
-            if (service.saveStudent("1", "test", 0, "bbb", "aaa") == 1){
-                throw new ValidationException("Invalid");
-            }
+            service.saveStudent("1", "test", 0, goodProfesor, goodEmail);
             fail("student added with wrong group");
         }
         catch (ValidationException exception){
             assertTrue(true);
         }
-
-
         try {
-            if (service.saveStudent("1", "test", -1, "bbb", "aaa") == 1){
-                throw new ValidationException("Invalid");
-            }
+            service.saveStudent("1", "test", -1, goodProfesor, goodEmail);
             fail("student added with wrong group");
+        }
+        catch (ValidationException exception){
+            assertTrue(true);
+        }
+    }
+
+    @Test
+    public void addStudentTest_validEmail()
+    {
+        service.saveStudent("1","test",goodGroup,goodProfesor,goodEmail);
+        boolean found = false;
+        for (Student s:
+                service.findAllStudents()) {
+            if(s.getID().equals("1"))
+            {
+                if(s.getEmail().equals(goodEmail))
+                {
+                    found = true;
+                }
+            }
+        }
+        assertTrue(found);
+    }
+    @Test
+    public void addStudentTest_invalidEmail()
+    {
+        try {
+            service.saveStudent("1", "test", goodGroup, goodProfesor, "aaa");
+            fail("student added with wrong email");
+        }
+        catch (ValidationException exception){
+            assertTrue(true);
+        }
+        try {
+            service.saveStudent("1", "test", goodGroup, goodProfesor, "");
+            fail("student added with empty email");
+        }
+        catch (ValidationException exception){
+            assertTrue(true);
+        }
+    }
+    @Test
+    public void addStudentTest_validProfesor()
+    {
+        service.saveStudent("1","test",goodGroup,goodProfesor,goodEmail);
+        boolean found = false;
+        for (Student s:
+                service.findAllStudents()) {
+            if(s.getID().equals("1"))
+            {
+                if(s.getProfesor().equals(goodProfesor))
+                {
+                    found = true;
+                }
+            }
+        }
+        assertTrue(found);
+    }
+    @Test
+    public void addStudentTest_invalidProfesor()
+    {
+        try {
+            service.saveStudent("1", "test", goodGroup, "", goodEmail);
+            fail("student added with empty profesor");
         }
         catch (ValidationException exception){
             assertTrue(true);
