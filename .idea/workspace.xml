@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/lab02v2MV/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab02v2MV/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/lab02v2MV/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lab02v2MV/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teme_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/teme_test.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/lab02v2MV/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="223" column="12" selection-start-line="223" selection-start-column="12" selection-end-line="223" selection-end-column="12" />
+            <state relative-caret-position="436">
+              <caret line="242" column="15" selection-start-line="242" selection-start-column="15" selection-end-line="242" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -39,38 +38,38 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AbstractCRUDRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractCRUDRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TemaValidator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/validation/TemaValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="374">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentXMLRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/repository/StudentXMLRepository.java">
+      <file leaf-file-name="AbstractXMLRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractXMLRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="282">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TemaFileRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/repository/TemaFileRepository.java">
+      <file leaf-file-name="StudentValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/validation/StudentValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-414">
-              <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemaRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/repository/TemaRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -455,7 +454,7 @@
       <workItem from="1554016890769" duration="61000" />
       <workItem from="1554017452601" duration="153000" />
       <workItem from="1554017641892" duration="10000" />
-      <workItem from="1554124073191" duration="2811000" />
+      <workItem from="1554124073191" duration="3355000" />
     </task>
     <task id="LOCAL-00001" summary="initcomit">
       <created>1552920303472</created>
@@ -485,25 +484,17 @@
       <option name="project" value="LOCAL" />
       <updated>1554124486268</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="WBT test implementation">
+      <created>1554127352149</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554127352149</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_LabAssiAsseProjectV01 - 2019.03.24 at 12h 51m 20s.xml">
-      <configuration name="All in LabAssiAsseProjectV01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_LabAssiAsseProjectV01 - 2019.03.24 at 12h 52m 30s.xml">
-      <configuration name="All in LabAssiAsseProjectV01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_LabAssiAsseProjectV01 - 2019.03.24 at 12h 53m 11s.xml">
-      <configuration name="All in LabAssiAsseProjectV01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_LabAssiAsseProjectV01 - 2019.03.24 at 12h 53m 40s.xml">
-      <configuration name="All in LabAssiAsseProjectV01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_addAssignment_invalidDeadline - 2019.04.01 at 16h 57m 45s.xml">
-      <configuration name="AppTest.addAssignment_invalidDeadline" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest_addAssignment_invalidDeadline - 2019.04.01 at 16h 57m 55s.xml">
       <configuration name="AppTest.addAssignment_invalidDeadline" configurationId="JUnit" />
     </history-entry>
@@ -519,9 +510,24 @@
     <history-entry file="AppTest - 2019.04.01 at 16h 58m 58s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2019.04.01 at 16h 59m 36s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.04.01 at 16h 59m 43s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.04.01 at 17h 03m 57s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.04.01 at 17h 07m 04s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.04.01 at 17h 07m 22s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17190000" />
+    <option name="totallyTimeSpent" value="17734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -533,11 +539,11 @@
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.39978212" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.32897604" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49946696" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49840087" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32897604" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="0" />
@@ -549,7 +555,7 @@
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" visible="true" weight="0.39978212" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.4989339" weight="0.39978212" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Python Console" order="7" />
@@ -571,18 +577,20 @@
     <MESSAGE value="initcomit" />
     <MESSAGE value="itCOMPILES" />
     <MESSAGE value="WBT test skeleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="WBT test skeleton" />
+    <MESSAGE value="WBT test implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="WBT test implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/lab02v2MV/AppTest.java</url>
-          <line>236</line>
+          <line>235</line>
           <properties />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -830,13 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractCRUDRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/repository/StudentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -851,13 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractXMLRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
@@ -869,13 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/validation/StudentValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -921,6 +908,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/validation/ValidationException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -931,24 +925,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/validation/TemaValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/validation/StudentValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="374">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/Service.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractXMLRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="282">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repository/AbstractCRUDRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/validation/TemaValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/lab02v2MV/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="223" column="12" selection-start-line="223" selection-start-column="12" selection-end-line="223" selection-end-column="12" />
+        <state relative-caret-position="436">
+          <caret line="242" column="15" selection-start-line="242" selection-start-column="15" selection-end-line="242" selection-end-column="15" />
         </state>
       </provider>
     </entry>

@@ -229,16 +229,18 @@ public class AppTest
     public void addAssignment_invalidStartline()
     {
         service.saveStudent("1","test",goodGroup,goodProfesor,goodEmail);
-        Tema t = new Tema("1","aaaa",2,1);
+        Tema t = new Tema("1","aaaa",1,2);
         TemaValidator validator = new TemaValidator();
 
-        Tema result = fileRepository2.save(t);
-
-        if (result == null) {
-            assertTrue(true);
+        try {
+            Tema result = fileRepository2.save(t);
         }
-        else
-            fail();
+        catch (ValidationException ignored)
+        {
+            assertTrue(true);
+            return;
+        }
+        fail();
 
 
     }
