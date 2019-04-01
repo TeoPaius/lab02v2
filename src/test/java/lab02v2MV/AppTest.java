@@ -211,13 +211,36 @@ public class AppTest
     @Test
     public void addAssignment_invalidDeadline()
     {
-        assertTrue(true);
+//        service.saveStudent("1","test",goodGroup,goodProfesor,goodEmail);
+        Tema t = new Tema("1","aaaa",2,1);
+        TemaValidator validator = new TemaValidator();
+
+        Tema result = fileRepository2.save(t);
+
+        if (result == null) {
+            assertTrue(true);
+        }
+        else
+            fail();
+
     }
 
     @Test
     public void addAssignment_invalidStartline()
     {
-        assertTrue(true);
+        service.saveStudent("1","test",goodGroup,goodProfesor,goodEmail);
+        Tema t = new Tema("1","aaaa",2,1);
+        TemaValidator validator = new TemaValidator();
+
+        Tema result = fileRepository2.save(t);
+
+        if (result == null) {
+            assertTrue(true);
+        }
+        else
+            fail();
+
+
     }
 
 
