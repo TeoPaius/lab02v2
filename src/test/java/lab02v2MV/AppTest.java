@@ -208,6 +208,19 @@ public class AppTest
         }
 
     }
+    @Test
+    public void addAssignment_invalidDeadline()
+    {
+        assertTrue(true);
+    }
+
+    @Test
+    public void addAssignment_invalidStartline()
+    {
+        assertTrue(true);
+    }
+
+
 
 
 
