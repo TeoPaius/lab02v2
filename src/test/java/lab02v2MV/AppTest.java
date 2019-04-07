@@ -241,10 +241,67 @@ public class AppTest
             return;
         }
         fail();
-
-
     }
 
+    @Test
+    public void validateAssignment_valid()
+    {
+        Tema t = new Tema("1","aaaa",2,1);
+        try{
+            temaValidator.validate(t);
+        }catch (ValidationException v)
+        {
+            fail();
+        }
+    }
+    @Test
+    public void validateAssignment_invalidID()
+    {
+        Tema t = new Tema("","aaaa",2,1);
+        try{
+            temaValidator.validate(t);
+        }catch (ValidationException v)
+        {
+            return;
+        }
+        fail();
+    }
+    @Test
+    public void validateAssignment_invalidDescriere()
+    {
+        Tema t = new Tema("1","",2,1);
+        try{
+            temaValidator.validate(t);
+        }catch (ValidationException v)
+        {
+            return;
+        }
+        fail();
+    }
+    @Test
+    public void validateAssignment_invalidDeadline()
+    {
+        Tema t = new Tema("","aaaa",-1,2);
+        try{
+            temaValidator.validate(t);
+        }catch (ValidationException v)
+        {
+            return;
+        }
+        fail();
+    }
+    @Test
+    public void validateAssignment_invalidStartline()
+    {
+        Tema t = new Tema("","aaaa",2,1);
+        try{
+            temaValidator.validate(t);
+        }catch (ValidationException v)
+        {
+            return;
+        }
+        fail();
+    }
 
 
 
