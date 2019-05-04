@@ -303,8 +303,70 @@ public class AppTest
         fail();
     }
 
+    @Test
+    public void addStudent_TD()
+    {
+        service.saveStudent("1","test",goodGroup,goodProfesor,goodEmail);
+        boolean found = false;
+        for (Student s:
+                service.findAllStudents()) {
+            if(s.getID().equals("1"))
+            {
+                found = true;
+            }
+        }
+        assertTrue(found);
+    }
 
+    @Test
+    public void addAssignment_TD()
+    {
+        service.saveStudent("1","test",goodGroup,goodProfesor,goodEmail);
+        boolean found = false;
+        for (Student s:
+                service.findAllStudents()) {
+            if(s.getID().equals("1"))
+            {
+                found = true;
+            }
+        }
+        assertTrue(found);
 
+        found = false;
+        service.saveTema("1","aaa",2,1);
+        for (Student s:
+                service.findAllStudents()) {
+            if(s.getID().equals("1"))
+            {
+                found = true;
+            }
+        }
+        for(Tema t: service.findAllTeme()){
+            if(t.getID().equals("1")){
+                found = true;
+            }
+        }
+        assertTrue(found);
+
+    }
+
+    @Test
+    public void addGrade_TD()
+    {
+        service.saveStudent("1","test",goodGroup,goodProfesor,goodEmail);
+        service.saveTema("2","aaa",3,1);
+        service.saveNota("1","2",9.0,2,"aaa");
+
+        boolean found = false;
+        for (Nota n:
+                service.findAllNote()) {
+            if(n.getID().getObject1().equals("1") && n.getID().getObject2().equals("2") && n.getNota() == 9.0)
+            {
+                found = true;
+            }
+        }
+        assertTrue(found);
+    }
 
 
 
